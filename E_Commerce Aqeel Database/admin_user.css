@@ -1,0 +1,34 @@
+.sidebar {
+ width: 200px;
+ height: 100vh;
+ position: fixed;
+ top: 0;
+ left: 0;
+ background-color: #f8f9fa;
+ padding-top: 20px;
+}
+
+.sidebar ul {
+ padding: 0;
+}
+
+.sidebar ul li {
+ list-style: none;
+ padding: 10px;
+ text-align: center;
+}
+
+.sidebar ul li a {
+ text-decoration: none;
+ color: #333;
+ display: block;
+}
+
+.sidebar ul li a:hover {
+ background-color: #007bff;
+ color: #fff;
+}
+
+.container {
+ margin-left: 220px; /* Adjust this value based on sidebar width */
+}
